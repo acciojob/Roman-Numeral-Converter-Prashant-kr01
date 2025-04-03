@@ -31,9 +31,9 @@ function convertToRoman(num) {
 		}
 	}
   for(let i in obj){
-	  if(num >= object[i][0]){
-		 result += object[i][0];
-		  num -= object[i][1];
+	  if(num >= obj[i][0]){
+		 result += obj[i][0];
+		  num -= obj[i][1];
 	  }
   }
 return result;
